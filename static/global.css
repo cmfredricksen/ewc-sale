@@ -19,6 +19,15 @@
 	box-sizing: border-box;
 }
 
+html {
+	width: 100vw;
+}
+
+body {
+	background: linear-gradient(var(--clr-gold), var(--clr-magenta));
+	background-repeat: no-repeat;
+}
+
 h1,
 h2,
 h3 {
@@ -27,6 +36,11 @@ h3 {
 
 a {
 	font-family: var(--font-accent);
+	color: var(--clr-gold);
+}
+
+a:hover {
+	color: var(--clr-magenta);
 }
 
 p {
