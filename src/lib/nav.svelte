@@ -29,6 +29,7 @@
 	}
 
 	a:hover {
-		color: var(--clr-green-dk);
+		color: var(--clr-magenta);
+		font-weight: bold;
 	}
 </style>

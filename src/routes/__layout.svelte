@@ -16,7 +16,7 @@
 
 <style>
 	.wrapper {
-		width: 90vw;
+		width: 96vw;
 		margin: 0 auto;
 		/* background: var(--clr-green-dk); */
 		background: linear-gradient(var(--clr-indigo), var(--clr-green-dk));

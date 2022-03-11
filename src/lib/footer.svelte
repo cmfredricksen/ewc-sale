@@ -9,6 +9,6 @@
 		color: var(--clr-gold);
 		font-weight: bolder;
 		font-size: 1.25rem;
-		border-top: 3px solid var(--clr-green-dk);
+		/* border-top: 3px solid var(--clr-green-dk); */
 	}
 </style>

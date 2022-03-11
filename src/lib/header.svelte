@@ -13,8 +13,9 @@
 		justify-content: space-between;
 		padding: 0.5rem;
 		align-items: baseline;
-		border-bottom: 2px solid var(--clr-indigo);
+		/* border-bottom: 2px solid var(--clr-indigo); */
 		color: var(--clr-indigo);
 		background-color: var(--clr-gold);
+		background-blend-mode: darken;
 	}
 </style>
