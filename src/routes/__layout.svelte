@@ -18,7 +18,8 @@
 	.wrapper {
 		width: 90vw;
 		margin: 0 auto;
-		background: var(--clr-green-dk);
+		/* background: var(--clr-green-dk); */
+		background: linear-gradient(var(--clr-indigo), var(--clr-green-dk));
 		color: var(--clr-white);
 		min-height: 50vh;
 	}
