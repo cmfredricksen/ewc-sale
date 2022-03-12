@@ -14,7 +14,7 @@
 
 	<p>
 		Many of us also participate in other local artist groups and our art can be found around town in
-		many businesses and at <a href="https://elysartandsoul.com/" target="_blank"
+		many businesses and at the <a href="https://elysartandsoul.com/" target="_blank"
 			>Art & Soul Gallery</a
 		>.
 	</p>
@@ -27,5 +27,11 @@
 
 	p {
 		margin: 1rem 0;
+	}
+
+	@media (max-width: 720px) {
+		p {
+			line-height: 1.5;
+		}
 	}
 </style>

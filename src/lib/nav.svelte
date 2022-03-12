@@ -32,4 +32,10 @@
 		color: var(--clr-magenta);
 		font-weight: bold;
 	}
+
+	@media (max-width: 720px) {
+		a {
+			font-size: 1.2em;
+		}
+	}
 </style>

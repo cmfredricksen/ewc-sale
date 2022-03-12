@@ -10,6 +10,7 @@
 		font-weight: bolder;
 		font-size: 1.25rem;
 		/* border-top: 3px solid var(--clr-green-dk); */
+		bottom: 0;
 	}
 
 	a {
@@ -18,5 +19,11 @@
 
 	a:hover {
 		color: var(--clr-white);
+	}
+
+	@media (max-width: 720px) {
+		footer {
+			padding: 2rem 1rem;
+		}
 	}
 </style>

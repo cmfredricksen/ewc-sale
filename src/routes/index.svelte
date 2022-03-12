@@ -66,7 +66,7 @@
 	.gallery {
 		display: flex;
 		flex-wrap: wrap;
-		/* margin: 0 auto; */
+		margin: 0 auto;
 		justify-content: space-around;
 	}
 
@@ -87,5 +87,15 @@
 		list-style: none;
 		margin: 0.5rem 0;
 		font-family: var(--font-accent);
+	}
+
+	@media (max-width: 720px) {
+		.img-size {
+			width: 90%;
+		}
+
+		.info {
+			padding: 1.5rem 0 0;
+		}
 	}
 </style>
