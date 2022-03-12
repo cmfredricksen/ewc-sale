@@ -8,16 +8,11 @@
 </div>
 
 <div class="gallery">
-	<img class="img-size" src="../../static/images/cassett.jpg" alt="painting" title="Mary Cassett" />
-	<img class="img-size" src="../../static/images/kahlo.jpg" alt="painting" title="Frieda Kahlo" />
-	<img class="img-size" src="../../static/images/monet.jpg" alt="painting" title="Claude Monet" />
-	<img
-		class="img-size"
-		src="../../static/images/kandinsky.jpg"
-		alt="painting"
-		title="Vassily Kandinsky"
-	/>
-	<img class="img-size" src="../../static/images/manet.jpg" alt="painting" title="Edouard Manet" />
+	<img class="img-size" src="/images/cassett.jpg" alt="painting" title="Mary Cassett" />
+	<img class="img-size" src="/images/kahlo.jpg" alt="painting" title="Frieda Kahlo" />
+	<img class="img-size" src="/images/monet.jpg" alt="painting" title="Claude Monet" />
+	<img class="img-size" src="/images/kandinsky.jpg" alt="painting" title="Vassily Kandinsky" />
+	<img class="img-size" src="/images/manet.jpg" alt="painting" title="Edouard Manet" />
 	<div class="info-box img-size">
 		<h2>Please Join Us!</h2>
 		<h3>100's of Paintings by Local Artists!</h3>
