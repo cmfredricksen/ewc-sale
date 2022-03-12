@@ -4,10 +4,6 @@
 	import Footer from '$lib/footer.svelte';
 </script>
 
-<svelte:head>
-	<title>Ely Watercolor Club &ap;</title>
-</svelte:head>
-
 <Header />
 <div class="wrapper">
 	<slot />

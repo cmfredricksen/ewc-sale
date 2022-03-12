@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Ely Watercolor Club | Directions</title>
+</svelte:head>
+
 <div class="directions">
 	<h2>How to find us!</h2>
 

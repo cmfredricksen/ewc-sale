@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Ely Watercolor Club | About</title>
+</svelte:head>
+
 <div class="about">
 	<h2>About Us</h2>
 

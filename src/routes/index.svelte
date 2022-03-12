@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Ely Watercolor Club | Home</title>
+</svelte:head>
+
 <div class="info">
 	<h2>July 19 - July 23 2022</h2>
 	<h2>10am - 4pm</h2>
