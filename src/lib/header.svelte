@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<h1>Ely Watercolor Club &ap; Annual Sale 2022</h1>
+	<h1><a class="indigo" href="/">Ely Watercolor Club</a> &ap; Annual Sale 2022</h1>
 	<Nav />
 </header>
 
@@ -17,5 +17,16 @@
 		color: var(--clr-indigo);
 		background-color: var(--clr-gold);
 		background-blend-mode: darken;
+	}
+
+	.indigo {
+		color: var(--clr-indigo);
+		text-decoration: none;
+		font-family: var(--font-headings);
+		font-size: 3.25rem;
+	}
+
+	.indigo:hover {
+		color: var(--clr-magenta);
 	}
 </style>
