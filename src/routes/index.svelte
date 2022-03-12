@@ -1,20 +1,19 @@
 <div class="info">
 	<h2>July 19 - July 23 2022</h2>
 	<h2>10am - 4pm</h2>
-	<p>We accept cash, checks & credit cards.</p>
 </div>
 
 <div class="gallery">
 	<img class="img-size" src="../../static/images/cassett.jpg" alt="painting" title="Mary Cassett" />
 	<img class="img-size" src="../../static/images/kahlo.jpg" alt="painting" title="Frieda Kahlo" />
-	<img class="img-size" src="../../static/images/monet.jpg" alt="painting" title="Clause Monet" />
+	<img class="img-size" src="../../static/images/monet.jpg" alt="painting" title="Claude Monet" />
 	<img
 		class="img-size"
 		src="../../static/images/kandinsky.jpg"
 		alt="painting"
-		title="Vasily Kandinsky"
+		title="Vassily Kandinsky"
 	/>
-	<img class="img-size" src="../../static/images/manet.jpg" alt="painting" title="Eduard Manet" />
+	<img class="img-size" src="../../static/images/manet.jpg" alt="painting" title="Edouard Manet" />
 	<div class="info-box img-size">
 		<h2>Please Join Us!</h2>
 		<h3>100's of Paintings by Local Artists!</h3>
@@ -30,13 +29,14 @@
 			<li>Cecilia Rolando</li>
 			<li>Holly Rom</li>
 			<li>Claire Taylor</li>
-			<li>John Weiderman</li>
+			<li>John Weidermann</li>
 		</ul>
 
 		<h2>Location:</h2>
 		<h3>Ely Arts & Heritage Center at Pioneer Mine</h3>
 		<p>401 N. Pioneer Road</p>
 		<a href="/directions">directions</a>
+		<p>We accept cash, checks & credit cards.</p>
 	</div>
 </div>
 
@@ -56,6 +56,7 @@
 
 	p {
 		margin-bottom: 1rem;
+		margin-top: 1rem;
 	}
 
 	.gallery {

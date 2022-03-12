@@ -10,7 +10,9 @@
 
 	<p>
 		Many of us also participate in other local artist groups and our art can be found around town in
-		many businesses and at <a href="https://elysartandsoul.com/">Art & Soul Gallery</a>.
+		many businesses and at <a href="https://elysartandsoul.com/" target="_blank"
+			>Art & Soul Gallery</a
+		>.
 	</p>
 </div>
 
