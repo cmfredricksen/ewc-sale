@@ -6,7 +6,7 @@
 	footer {
 		text-align: center;
 		padding: 2rem 0;
-		color: var(--clr-gold);
+		color: var(--clr-white);
 		font-weight: bolder;
 		font-size: 1.25rem;
 		/* border-top: 3px solid var(--clr-green-dk); */
