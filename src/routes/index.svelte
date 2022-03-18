@@ -3,15 +3,19 @@
 </svelte:head>
 
 <div class="info">
-	<h2>July 19 - July 23 2022</h2>
+	<h2>Wednesday July 20 - Sunday July 24 2022</h2>
 	<h2>10am - 4pm</h2>
+	<div class="location">
+		<h2>401 N. Pioneer Rd.</h2>
+		<p><a href="/directions">directions</a></p>
+	</div>
 </div>
 
 <div class="gallery">
-	<img class="img-size" src="/images/cassett.jpg" alt="painting" title="Mary Cassett" />
-	<img class="img-size" src="/images/kahlo.jpg" alt="painting" title="Frieda Kahlo" />
 	<img class="img-size" src="/images/monet.jpg" alt="painting" title="Claude Monet" />
 	<img class="img-size" src="/images/kandinsky.jpg" alt="painting" title="Vassily Kandinsky" />
+	<img class="img-size" src="/images/cassett.jpg" alt="painting" title="Mary Cassett" />
+	<img class="img-size" src="/images/kahlo.jpg" alt="painting" title="Frieda Kahlo" />
 	<img class="img-size" src="/images/manet.jpg" alt="painting" title="Edouard Manet" />
 	<div class="info-box img-size">
 		<h2>Please Join Us!</h2>
@@ -25,6 +29,7 @@
 			<li>Nancy Ensley</li>
 			<li>Chris Fredricksen</li>
 			<li>Scott King</li>
+			<li>Sue Mischke</li>
 			<li>Cecilia Rolando</li>
 			<li>Holly Rom</li>
 			<li>Claire Taylor</li>
@@ -53,6 +58,17 @@
 		padding: 1.5rem 0;
 	}
 
+	.location {
+		display: flex;
+		align-items: baseline;
+		justify-content: center;
+	}
+
+	.location a {
+		margin: 0 1rem;
+		font-size: small;
+	}
+
 	p {
 		margin-bottom: 1rem;
 		margin-top: 1rem;
@@ -68,6 +84,7 @@
 	img {
 		width: 100%;
 		margin: 2rem;
+		box-shadow: 2px 2px 1px #000;
 	}
 
 	.img-size {

@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat&family=Roboto+Mono&display=swap');
 
 :root {
-	--clr-indigo: #4b0082;
-	--clr-gold: #ffdf00;
+	--clr-indigo-lt: #4b0082;
+	--clr-indigo: #300350;
+	--clr-gold-lt: #ffdf00;
+	--clr-gold: #fab700;
 	--clr-green-dk: #1b4d3e;
 	--clr-magenta: #ff0090;
 	--clr-black: #000;
