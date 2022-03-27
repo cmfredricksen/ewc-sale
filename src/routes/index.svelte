@@ -58,6 +58,10 @@
 		padding: 1.5rem 0;
 	}
 
+	.info h2 {
+		color: var(--clr-white);
+	}
+
 	.location {
 		display: flex;
 		align-items: baseline;
