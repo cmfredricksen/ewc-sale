@@ -26,14 +26,13 @@
 		<ul>
 			<li>Sandy Brandley</li>
 			<li>Bonnie Dufresne</li>
-			<li>Nancy Ensley</li>
 			<li>Chris Fredricksen</li>
 			<li>Scott King</li>
 			<li>Sue Mischke</li>
 			<li>Cecilia Rolando</li>
 			<li>Holly Rom</li>
 			<li>Claire Taylor</li>
-			<li>John Weidermann</li>
+			<li>John Weidemann</li>
 		</ul>
 
 		<h2>Location:</h2>
