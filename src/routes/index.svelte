@@ -12,11 +12,11 @@
 </div>
 
 <div class="gallery">
-	<img class="img-size" src="/images/Cecilia-Rolando.jpg" alt="painting" title="Cecilia Rolando" />
-	<img class="img-size" src="/images/Bonnie-Dufresne.jpg" alt="painting" title="Bonnie Dufresne" />
-	<img class="img-size" src="/images/Scott-King.jpg" alt="painting" title="Scott King" />
 	<img class="img-size" src="/images/Diane-Levar.jpg" alt="painting" title="Diane Levar" />
+	<img class="img-size" src="/images/Scott-King.jpg" alt="painting" title="Scott King" />
+	<img class="img-size" src="/images/Cecilia-Rolando.jpg" alt="painting" title="Cecilia Rolando" />
 	<img class="img-size" src="/images/chris-fredricksen.jpg" alt="painting" title="Chris Fredricksen" />
+	<img class="img-size" src="/images/Bonnie-Dufresne.jpg" alt="painting" title="Bonnie Dufresne" />
 	<div class="info-box img-size">
 		<h2>Please Join Us!</h2>
 		<h3>100's of Paintings by Local Artists!</h3>
@@ -83,21 +83,23 @@
 		display: flex;
 		flex-wrap: wrap;
 		margin: 0 auto;
-		justify-content: space-around;
+		justify-content: space-evenly;
 	}
 
 	img {
 		width: 100%;
-		margin: 2rem;
+		height: auto;
+		margin: 2rem 1rem;
 		box-shadow: 2px 2px 1px #000;
 	}
 
 	.img-size {
-		width: 40%;
+		width: 42%;
+		height: auto;
 	}
 
 	.info-box {
-		margin: 2rem;
+		margin: 2rem 1rem;
 	}
 
 	li {
@@ -105,13 +107,14 @@
 		margin: 0.5rem 0;
 		font-family: var(--font-accent);
 	}
+	
+	@media (max-width: 1068px) {
+		.img-size {
+			width: 85%;
+		}
+	}
 
 	@media (max-width: 720px) {
-		img {
-			width: 100%;
-			height: auto;
-
-		}
 		.img-size {
 			width: 90%;
 		}
