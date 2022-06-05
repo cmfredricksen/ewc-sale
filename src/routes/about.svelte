@@ -22,7 +22,7 @@
 	</p>
 	
 	<p class="session-info">
-		Currently we are meeting every Thursday from 9:30am - 12:30 pm at the <a href="https://elyfolkschool.org/">The Ely Folk School</a> to paint. It is open studio time, and you can come by with your supplies (even if it isn't watercolor) and make art. Admission is free.
+		Currently we are meeting every Thursday from 9:30am - 12:30pm at the <a href="https://elyfolkschool.org/">The Ely Folk School</a> to paint. It is open studio time, and you can come by with your supplies (even if it isn't watercolor) and make art. Admission is free.
 	</p>
 </div>
 
