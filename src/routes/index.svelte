@@ -12,15 +12,17 @@
 </div>
 
 <div class="gallery">
-	<img class="img-size" src="/images/monet.jpg" alt="painting" title="Claude Monet" />
-	<img class="img-size" src="/images/kandinsky.jpg" alt="painting" title="Vassily Kandinsky" />
-	<img class="img-size" src="/images/cassett.jpg" alt="painting" title="Mary Cassett" />
-	<img class="img-size" src="/images/kahlo.jpg" alt="painting" title="Frieda Kahlo" />
-	<img class="img-size" src="/images/manet.jpg" alt="painting" title="Edouard Manet" />
+	<img class="img-size" src="/images/Cecilia-Rolando.jpg" alt="painting" title="Cecilia Rolando" />
+	<img class="img-size" src="/images/Bonnie-Dufresne.jpg" alt="painting" title="Bonnie Dufresne" />
+	<img class="img-size" src="/images/Scott-King.jpg" alt="painting" title="Scott King" />
+	<img class="img-size" src="/images/Diane-Levar.jpg" alt="painting" title="Diane Levar" />
+	<img class="img-size" src="/images/chris-fredricksen.jpg" alt="painting" title="Chris Fredricksen" />
 	<div class="info-box img-size">
 		<h2>Please Join Us!</h2>
 		<h3>100's of Paintings by Local Artists!</h3>
-		<p>Cards & Paintings are all Original and one of a kind!</p>
+		<p>All Paintings are Original and one of a kind!</p>
+		<p>Greeting Cards & Gift Bags also available!</p>
+		<p></p>
 
 		<h2>Featuring Art by:</h2>
 		<ul>
@@ -105,12 +107,21 @@
 	}
 
 	@media (max-width: 720px) {
+		img {
+			width: 100%;
+			height: auto;
+
+		}
 		.img-size {
 			width: 90%;
 		}
 
 		.info {
 			padding: 1.5rem 0 0;
+		}
+
+		.info-box {
+			margin: 1rem;
 		}
 	}
 </style>
