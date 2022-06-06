@@ -30,6 +30,7 @@
 			<li>Bonnie Dufresne</li>
 			<li>Chris Fredricksen</li>
 			<li>Scott King</li>
+			<li>Diane Levar</li>
 			<li>Sue Mischke</li>
 			<li>Cecilia Rolando</li>
 			<li>Holly Rom</li>
