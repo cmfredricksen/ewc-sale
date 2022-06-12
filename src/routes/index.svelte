@@ -119,6 +119,8 @@
 
 	.info-box {
 		margin: 2rem 1rem;
+		border-top: 3px dotted var(--clr-gold);
+		padding-top: 3rem;
 	}
 
 	li {
