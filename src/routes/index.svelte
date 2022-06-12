@@ -12,11 +12,20 @@
 </div>
 
 <div class="gallery">
-	<img class="img-size" src="/images/Diane-Levar.jpg" alt="painting" title="Diane Levar" />
-	<img class="img-size" src="/images/Scott-King.jpg" alt="painting" title="Scott King" />
-	<img class="img-size" src="/images/Cecilia-Rolando.jpg" alt="painting" title="Cecilia Rolando" />
+	<img class="img-size image-height" src="/images/Bonnie-Dufresne.jpg" alt="painting" title="Bonnie Dufresne" />
+	<p class="artist-name">by Bonnie Dufresne</p>
 	<img class="img-size" src="/images/chris-fredricksen.jpg" alt="painting" title="Chris Fredricksen" />
-	<img class="img-size" src="/images/Bonnie-Dufresne.jpg" alt="painting" title="Bonnie Dufresne" />
+	<p class="artist-name">by Chris Fredricksen</p>
+	<img class="img-size" src="/images/Scott-King.jpg" alt="painting" title="Scott King" />
+	<p class="artist-name">by Scott King</p>
+	<img class="img-size" src="/images/Diane-Levar.jpg" alt="painting" title="Diane Levar" />
+	<p class="artist-name">by Diane Levar</p>
+	<img class="img-size" src="/images/Cecilia-Rolando.jpg" alt="painting" title="Cecilia Rolando" />
+	<p class="artist-name">by Cecilia Rolando</p>
+	<img class="img-size" src="/images/Holly-Rom.jpg" alt="painting" title="Holly Rom">
+	<p class="artist-name">by Holly Rom</p>
+	<img class="img-size" src="/images/Claire-Taylor.jpg" alt="painting" title="Claire Taylor">
+	<p class="artist-name">by Claire Taylor</p>
 	<div class="info-box img-size">
 		<h2>Please Join Us!</h2>
 		<h3>100's of Paintings by Local Artists!</h3>
@@ -82,21 +91,29 @@
 
 	.gallery {
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction: column;
 		margin: 0 auto;
 		justify-content: space-evenly;
+		align-items: center;
 	}
 
 	img {
 		width: 100%;
-		height: auto;
-		margin: 2rem 1rem;
-		box-shadow: 2px 2px 1px #000;
+		margin: .25rem;
+		object-fit: contain;
 	}
 
 	.img-size {
-		width: 42%;
-		height: auto;
+		width: 50%;
+	}
+
+	.image-height {
+		max-height: 70vh;
+	}
+
+	.artist-name {
+		margin-top: .25rem;
+		margin-bottom: 2rem;
 	}
 
 	.info-box {
