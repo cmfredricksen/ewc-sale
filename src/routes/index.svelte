@@ -20,7 +20,7 @@
 	<p class="artist-name">by Scott King</p>
 	<img class="img-size" src="/images/Diane-Levar.jpg" alt="painting" title="Diane Levar" />
 	<p class="artist-name">by Diane Levar</p>
-	<img class="img-size" src="/images/Cecilia-Rolando.jpg" alt="painting" title="Cecilia Rolando" />
+	<img class="img-size image-height" src="/images/Cecilia-Rolando.jpg" alt="painting" title="Cecilia Rolando" />
 	<p class="artist-name">by Cecilia Rolando</p>
 	<img class="img-size" src="/images/Holly-Rom.jpg" alt="painting" title="Holly Rom">
 	<p class="artist-name">by Holly Rom</p>
@@ -77,6 +77,7 @@
 		display: flex;
 		align-items: baseline;
 		justify-content: center;
+		margin-bottom: 2.5rem;
 	}
 
 	.location a {
@@ -108,12 +109,12 @@
 	}
 
 	.image-height {
-		max-height: 70vh;
+		max-height: 80vh;
 	}
 
 	.artist-name {
 		margin-top: .25rem;
-		margin-bottom: 2rem;
+		margin-bottom: 5rem;
 	}
 
 	.info-box {
