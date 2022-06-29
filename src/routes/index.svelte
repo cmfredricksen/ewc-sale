@@ -4,7 +4,7 @@
 
 <div class="info">
 	<h2>Wednesday July 20 - Sunday July 24 2022</h2>
-	<h2>10am - 4pm</h2>
+	<h2>10am - 6pm</h2>
 	<div class="location">
 		<h2>401 N. Pioneer Rd.</h2>
 		<p><a href="/directions">directions</a></p>
